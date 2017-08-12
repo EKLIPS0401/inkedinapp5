@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "outDir": "dist",
+    "inlineSources": true,
+    "sourceMap": true
+  },
+  "compileOnSave": true,
+  "include": [
+    "app.ts",
+    "models/**/*.ts",
+    "routes/**/*.ts"
+  ],
+  "exclude": [
+    "ngApp/js/**/*.ts"
+  ]
+}
